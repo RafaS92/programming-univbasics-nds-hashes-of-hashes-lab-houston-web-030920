@@ -48,6 +48,7 @@ naming_system = {
      label: "Phylum",
      sub_category: {
        label: "Class",
+<<<<<<< HEAD
        sub_category: {
           label: "Order",
           sub_category:{
@@ -66,4 +67,20 @@ naming_system = {
 
 
 
+=======
+       sub_category:{
+         label: "Order",
+       }
+     }
+   },
+  
+  label: "Family",
+   sub_category: {
+     label: "Genus",
+   },
+  label: "Species",
+   sub_category: nil,
+}
+return naming_system
+>>>>>>> aa10893af0e418f806dbb6754285b29229666228
 end
